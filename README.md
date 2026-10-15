@@ -1,8 +1,8 @@
 # Secure Infrastructure & Enterprise AI Security Engagement
 
-A two-phase, simulated consulting engagement completed as a graduate cybersecurity engineering capstone. Acting as a security firm (**ABC Security**), our team assessed the private cloud of an international design company (**XYZ Design Co.**), then designed the security architecture, governance, and launch criteria for its planned in-house AI assistant.
+A two-phase, simulated consulting engagement completed as a graduate cybersecurity engineering capstone. Acting as a security firm (**ABC Security**), our three-person team assessed the private cloud of an international design company (**XYZ Design Co.**), then designed the security architecture, governance, and launch criteria for its planned in-house AI assistant.
 
-> **Note:** The client, firm, people, and environment are fictional. All testing ran in an isolated lab sandbox. Hostnames, IPs, names, and raw scan output have been removed or generalized. The contract documents in [`engagement-docs/`](engagement-docs/) are **our own original samples** written to role-play the full engagement; the instructor-provided originals are not included.
+> **Note:** The client, firm, people, and environment are fictional. All testing ran in an isolated lab sandbox. Hostnames, IPs, names, and raw scan output have been removed or generalized. The contract documents in [`engagement-docs/`](engagement-docs) are **our own original samples** written to role-play the full engagement; the instructor-provided originals are not included.
 
 ---
 
@@ -19,11 +19,21 @@ A two-phase, simulated consulting engagement completed as a graduate cybersecuri
 
 ---
 
+## My Role
+
+Three-person team; I contributed across both phases, with my main focus on:
+
+- Running the Nmap and Nessus vulnerability scans in Phase 1
+- Designing the launch-blocking security gates for the AI platform in Phase 2
+- Contributing to the hardening plan, AI threat model, and incident response playbook
+
+---
+
 ## Repository Layout
 
 | File | What's inside |
 |---|---|
-| [Engagement Docs (sample)](engagement-docs/) | Our own Client Brief, SOW, SLA, Rules of Engagement, and two Change Requests |
+| [Engagement Docs (sample)](engagement-docs) | Our own Client Brief, SOW, SLA, Rules of Engagement, and two Change Requests |
 | [01 – Engagement Overview](docs/01-engagement-overview.md) | Client, scope, rules of engagement, how Phase 2 builds on Phase 1 |
 | [02 – Infrastructure Assessment](docs/02-infrastructure-assessment.md) | Vulnerability assessment, pen test approach, hardening plan |
 | [03 – AI Security Architecture](docs/03-ai-architecture.md) | Current-state problems, target-state design, trust boundaries |
@@ -46,7 +56,7 @@ A two-phase, simulated consulting engagement completed as a graduate cybersecuri
 
 ---
 
-## Skills Demonstrated
+## Team Tools & Methods
 
 - Vulnerability assessment and CVSS-based prioritization (Nmap, Nessus, Nikto)
 - Penetration test planning (NIST SP 800-115; Impacket, CrackMapExec, Metasploit, Wireshark)
@@ -62,4 +72,4 @@ A two-phase, simulated consulting engagement completed as a graduate cybersecuri
 
 **Cole Winship** — [github.com/Cntrl-c](https://github.com/Cntrl-c)
 
-The underlying engagement was completed by a graduate capstone team. This repository — the write-up, structure, and presentation of the work — is my own, built as a portfolio piece. It is a rewritten summary, not the original graded submission.
+The underlying engagement was completed by a three-person graduate capstone team. This repository — the write-up, structure, and presentation of the work — is my own, built as a portfolio piece. It is a rewritten summary, not the original graded submission.
